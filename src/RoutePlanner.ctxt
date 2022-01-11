@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=RoutePlanner
+comment0.text=\ Given\ a\ starting\ location\ (specified\ by\ latitude\ and\ longitude),\ and\ a\n\ destination\ location\ (specified\ in\ the\ same\ way),\ calculate\ a\ list\n\ of\ directions\ a\ user\ can\ follow\ for\ a\ bus\ journey\ from\ the\ starting\n\ location\ to\ the\ destination.\n\ \n
+comment1.params=startLongitude\ startLatitude\ leaveHour\ leaveMinute\ destinationLongitude\ destinationLatitude\ arriveHour\ arriveMinute
+comment1.target=RoutePlanner(double,\ double,\ java.lang.Integer,\ java.lang.Integer,\ double,\ double,\ java.lang.Integer,\ java.lang.Integer)
+comment1.text=\n\ Construct\ a\ RoutePlanner\ object,\ specifying\ a\ starting\ location\ (specified\n\ by\ latitude\ and\ longitude),\ and\ a\ destination\ location\ (specified\ in\ the\n\ same\ way).\n\ \n\ Optionally,\ either\ a\ desired\ leaving\ time\ (leaveHour\ and\ leaveMinute)\ may\n\ be\ specified,\ or\ a\ desired\ arrival\ time\ (arriveHour\ and\ arriveMinute),\ but\n\ not\ both\ -\ if\ both\ are\ specified,\ an\ IllegalArgumentException\ is\ thrown.\n\ Specifying\ neither\ is\ acceptable;\ in\ that\ case,\ the\ leaving\ time\ is\ assumed\n\ to\ be\ the\ current\ time.\ The\ arguments\ for\ leaving\ or\ arrival\ time\n\ should\ be\ set\ to\ null,\ if\ not\ used.\n\ \n\ @param\ startLongitude\n\ @param\ startLatitude\n\ @param\ leaveHour\n\ @param\ leaveMinute\n\ @param\ destinationLongitude\n\ @param\ destinationLatitude\n\ @param\ arriveHour\n\ @param\ arriveMinute\n
+comment10.params=description
+comment10.target=java.util.List\ getDirections(java.lang.String[])
+comment10.text=\ Return\ a\ list\ of\ directions\ for\ the\ user\ to\ follow.\n\ The\ return\ value\ is\ a\ list\ of\ TravelStop\ objects,\ which\n\ will\ be\ displayed\ visually\ to\ the\ user\ by\ other\ classes.\n\ \n\ For\ the\ description\ argument,\ an\ empty\ array\ of\ Strings\ should\n\ be\ passed;\ an\ IllegalArgumentException\ is\ thrown\ if\ such\ an\ array\n\ is\ not\ passed.\n\ \n\ After\ the\ method\ is\ called,\ the\ method\ will\ have\ populated\n\ this\ array\ with\ one\ String,\ which\ consists\ of\ a\ textual\n\ description\ of\ the\ route\ to\ take,\ including\ walking\ to\ and\ from\n\ or\ between\ stops.\n\ \n\ If\ a\ route\ cannot\ be\ planned\ for\ some\ reason,\ an\ IllegalStateException\n\ is\ thrown,\ with\ an\ explanatory\ message.\n\ \n
+comment2.params=
+comment2.target=double\ getStartLongitude()
+comment3.params=
+comment3.target=double\ getStartLatitude()
+comment4.params=
+comment4.target=java.lang.Integer\ getLeaveHour()
+comment5.params=
+comment5.target=java.lang.Integer\ getLeaveMinute()
+comment6.params=
+comment6.target=double\ getDestinationLongitude()
+comment7.params=
+comment7.target=double\ getDestinationLatitude()
+comment8.params=
+comment8.target=java.lang.Integer\ getArriveHour()
+comment9.params=
+comment9.target=java.lang.Integer\ getArriveMinute()
+numComments=11

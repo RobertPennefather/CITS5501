@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=RoutePlannerTest
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ @throws\ java.lang.Exception\n\ \n\ Intialises\ a\ valid\ instance\ of\ the\ RoutePlanner\ class\ \n\ with\ parameters\ in\ the\ expected\ valid\ domains\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ @throws\ java.lang.Exception\n\ \n\ Removes\ the\ valid\ RoutePlanner\ instance\ \n
+comment3.params=
+comment3.target=void\ getStartLatitude_ValidRoutePlanner()
+comment3.text=\n\ Confirm\ that\ the\ valid\ RoutePlanner\ instance\ returns\ the\ \n\ correct\ startLatitude\ when\ getStartLatitude()\ is\ called,\ ie\ 50\n
+comment4.params=
+comment4.target=void\ getLeaveMinute_ValidRoutePlanner()
+comment4.text=\n\ Confirm\ that\ the\ valid\ RoutePlanner\ instance\ returns\ the\ \n\ correct\ leaveMinute\ when\ getLeaveMinute()\ is\ called,\ ie\ 15\n
+comment5.params=
+comment5.target=void\ getArriveHour_ValidRoutePlanner()
+comment5.text=\n\ Confirm\ that\ the\ valid\ RoutePlanner\ instance\ returns\ the\ \n\ correct\ arriveHour\ when\ getArriveHour()\ is\ called,\ ie\ null\n
+comment6.params=
+comment6.target=void\ RoutePlanner_InvalidTimes()
+comment6.text=\n\ Creating\ an\ instance\ of\ RoutePlanner\ with\ an\ invalid\ \n\ combination\ of\ time\ parameters\ ie\ all\ non-null.\ IllegalArgumentException\ should\ be\ thrown\n
+comment7.params=
+comment7.target=void\ RoutePlanner_NoTimeEqualCurrentTime()
+comment7.text=\n\ Creating\ an\ instance\ of\ RoutePlanner\ with\ all\ null\ time\ parameters\n\ The\ leave\ time\ should\ be\ equal\ to\ the\ current\ time\n\ While\ the\ arrive\ times\ should\ remain\ as\ null\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TravelStop
+comment0.text=\ Represents\ a\ stop\ on\ a\ bus\ route\n\n\ Once\ created,\ it\ should\ not\ change.\n
+comment1.params=latitude\ longitude\ street\ suburb
+comment1.target=TravelStop(double,\ double,\ java.lang.String,\ java.lang.String)
+comment1.text=\ Create\ a\ TravelStop\ instance.\ Streets\ and\ suburbs\ will\ be\ checked\ for\n\ validity\ by\ consulting\ an\ on-disk\ file,\ and\ an\ IllegalArgumentException\n\ thrown\ if\ they\ do\ not\ exist.\n\ \n\ @param\ latitude\ \ \ Latitude\ of\ the\ stop\n\ @param\ longitude\ \ Longitude\ of\ the\ stop\n\ @param\ street\ \ \ \ \ Street\ the\ stop\ is\ on\n\ @param\ suburb\ \ \ \ \ Suburb\ the\ stop\ is\ in\n
+comment2.params=
+comment2.target=double\ getLatitude()
+comment2.text=\ \n\ @return\ The\ latitude\ of\ the\ stop\n
+comment3.params=
+comment3.target=double\ getLongitude()
+comment3.text=\n\ \n\ @return\ The\ longitude\ of\ the\ stop\n
+comment4.params=
+comment4.target=java.lang.String\ getStreet()
+comment4.text=\n\ \n\ @return\ The\ street\ the\ stop\ is\ on\n
+comment5.params=
+comment5.target=java.lang.String\ getSuburb()
+comment5.text=\n\ \n\ @return\ The\ suburb\ the\ stop\ is\ in\n
+numComments=6
